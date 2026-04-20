@@ -1,0 +1,81 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Rumsan AI" [ref=e6] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=e7]:
+          - img [ref=e9]
+          - heading "Rumsan AI" [level=1] [ref=e12]
+      - button "Notifications" [ref=e14] [cursor=pointer]:
+        - img
+  - generic [ref=e94]:
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - link "← Back to Dashboard" [ref=e99] [cursor=pointer]:
+          - /url: /admin
+        - heading "Workspace Management" [level=1] [ref=e100]
+        - paragraph [ref=e101]: Manage your AI workspaces
+      - button "Create Workspace" [ref=e103] [cursor=pointer]:
+        - img
+        - text: Create Workspace
+    - generic [ref=e105]:
+      - link "anusha@@##$$$ Mailosaur Active 1 member banking" [ref=e106] [cursor=pointer]:
+        - /url: /admin/workspaces/anushadollardollardollar-1776333155004
+        - generic [ref=e107]:
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - img [ref=e112]
+              - generic [ref=e114]:
+                - generic [ref=e115]: anusha@@##$$$
+                - paragraph [ref=e116]: Mailosaur
+            - generic [ref=e117]: Active
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - img [ref=e121]
+              - generic [ref=e126]: 1 member
+            - generic [ref=e127]: banking
+      - link "dino Mailosaur Active Workspace for anusha@2ajvmidc.mailosaur.net 1 member banking" [ref=e128] [cursor=pointer]:
+        - /url: /admin/workspaces/dino-1776316958754
+        - generic [ref=e129]:
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - generic [ref=e132]:
+                - img [ref=e134]
+                - generic [ref=e136]:
+                  - generic [ref=e137]: dino
+                  - paragraph [ref=e138]: Mailosaur
+              - generic [ref=e139]: Active
+            - generic [ref=e140]: Workspace for anusha@2ajvmidc.mailosaur.net
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - img [ref=e144]
+              - generic [ref=e149]: 1 member
+            - generic [ref=e150]: banking
+      - link "TestWorkspace 1776419079337 Mailosaur Active 1 member" [ref=e151] [cursor=pointer]:
+        - /url: /admin/workspaces/testworkspace-1776419079337-1776419079968
+        - generic [ref=e152]:
+          - generic [ref=e154]:
+            - generic [ref=e155]:
+              - img [ref=e157]
+              - generic [ref=e159]:
+                - generic [ref=e160]: TestWorkspace 1776419079337
+                - paragraph [ref=e161]: Mailosaur
+            - generic [ref=e162]: Active
+          - generic [ref=e165]:
+            - img [ref=e166]
+            - generic [ref=e171]: 1 member
+      - link "TestWorkspace 1776420094620 Mailosaur Active 1 member" [ref=e172] [cursor=pointer]:
+        - /url: /admin/workspaces/testworkspace-1776420094620-1776420095207
+        - generic [ref=e173]:
+          - generic [ref=e175]:
+            - generic [ref=e176]:
+              - img [ref=e178]
+              - generic [ref=e180]:
+                - generic [ref=e181]: TestWorkspace 1776420094620
+                - paragraph [ref=e182]: Mailosaur
+            - generic [ref=e183]: Active
+          - generic [ref=e186]:
+            - img [ref=e187]
+            - generic [ref=e192]: 1 member
+  - region "Notifications alt+T"
+  - alert [ref=e92]

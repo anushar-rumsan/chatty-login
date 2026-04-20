@@ -1,0 +1,65 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Rumsan AI" [ref=e6] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=e7]:
+          - img [ref=e9]
+          - heading "Rumsan AI" [level=1] [ref=e12]
+      - button "Notifications" [ref=e14] [cursor=pointer]:
+        - img
+  - generic [ref=e193]:
+    - generic [ref=e195]:
+      - generic [ref=e196]:
+        - link "Back to Workspaces" [ref=e197] [cursor=pointer]:
+          - /url: /admin/workspaces
+          - img [ref=e198]
+          - text: Back to Workspaces
+        - generic [ref=e200]:
+          - img [ref=e202]
+          - generic [ref=e207]:
+            - heading "dino" [level=1] [ref=e208]
+            - paragraph [ref=e209]: Workspace for anusha@2ajvmidc.mailosaur.net
+      - generic [ref=e210]: active
+    - generic [ref=e212]:
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - button "Scroll tabs left" [ref=e409] [cursor=pointer]:
+            - img
+          - tablist [ref=e216]:
+            - tab "General" [ref=e217] [cursor=pointer]:
+              - img [ref=e218]
+              - text: General
+            - tab "Members" [ref=e221] [cursor=pointer]:
+              - img [ref=e222]
+              - text: Members
+            - tab "LLM Settings" [ref=e227] [cursor=pointer]:
+              - img [ref=e228]
+              - text: LLM Settings
+            - tab "Industry Knowledge" [ref=e231] [cursor=pointer]:
+              - img [ref=e232]
+              - text: Industry Knowledge
+            - tab "Integrations" [ref=e235] [cursor=pointer]:
+              - img [ref=e236]
+              - text: Integrations
+            - tab "MCP Marketplace" [active] [selected] [ref=e240] [cursor=pointer]:
+              - img [ref=e241]
+              - text: MCP Marketplace
+          - button "Scroll tabs right" [disabled]:
+            - img
+        - link "Open Workspace" [ref=e245] [cursor=pointer]:
+          - /url: /dashboard/workspace/dino-1776316958754
+          - img
+          - text: Open Workspace
+      - tabpanel "MCP Marketplace" [ref=e478]:
+        - generic [ref=e479]:
+          - generic [ref=e480]:
+            - generic [ref=e481]:
+              - heading "MCP Marketplace" [level=1] [ref=e482]
+              - heading "Manage MCP tools that the AI can reference." [level=3] [ref=e483]
+            - button "Add Server" [ref=e485] [cursor=pointer]
+          - generic [ref=e487]:
+            - img [ref=e488]
+            - paragraph [ref=e491]: No MCP servers available
+  - region "Notifications alt+T"
+  - alert [ref=e92]

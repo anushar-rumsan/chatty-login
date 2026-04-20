@@ -1,0 +1,113 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Rumsan AI" [ref=e6] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=e7]:
+          - img [ref=e9]
+          - heading "Rumsan AI" [level=1] [ref=e12]
+      - button "Notifications" [ref=e14] [cursor=pointer]:
+        - img
+  - generic [ref=e193]:
+    - generic [ref=e195]:
+      - generic [ref=e196]:
+        - link "Back to Workspaces" [ref=e197] [cursor=pointer]:
+          - /url: /admin/workspaces
+          - img [ref=e198]
+          - text: Back to Workspaces
+        - generic [ref=e200]:
+          - img [ref=e202]
+          - generic [ref=e207]:
+            - heading "dino" [level=1] [ref=e208]
+            - paragraph [ref=e209]: Workspace for anusha@2ajvmidc.mailosaur.net
+      - generic [ref=e210]: active
+    - generic [ref=e212]:
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - button "Scroll tabs left" [disabled]:
+            - img
+          - tablist [ref=e216]:
+            - tab "General" [selected] [ref=e217] [cursor=pointer]:
+              - img [ref=e218]
+              - text: General
+            - tab "Members" [ref=e221] [cursor=pointer]:
+              - img [ref=e222]
+              - text: Members
+            - tab "LLM Settings" [ref=e227] [cursor=pointer]:
+              - img [ref=e228]
+              - text: LLM Settings
+            - tab "Industry Knowledge" [ref=e231] [cursor=pointer]:
+              - img [ref=e232]
+              - text: Industry Knowledge
+            - tab "Integrations" [ref=e235] [cursor=pointer]:
+              - img [ref=e236]
+              - text: Integrations
+            - tab "MCP Marketplace" [ref=e240] [cursor=pointer]:
+              - img [ref=e241]
+              - text: MCP Marketplace
+          - button "Scroll tabs right" [ref=e244] [cursor=pointer]:
+            - img
+        - link "Open Workspace" [ref=e245] [cursor=pointer]:
+          - /url: /dashboard/workspace/dino-1776316958754
+          - img
+          - text: Open Workspace
+      - tabpanel "General" [ref=e246]:
+        - generic [ref=e247]:
+          - generic [ref=e248]:
+            - generic [ref=e250]:
+              - generic [ref=e251]: General Workspace Settings
+              - generic [ref=e252]: Basic workspace information and bot configuration.
+            - generic [ref=e254]:
+              - generic [ref=e255]:
+                - text: Workspace Name
+                - textbox "Workspace Name" [disabled] [ref=e256]: dino
+                - paragraph [ref=e257]: This is the visible name used across the app.
+              - generic [ref=e258]:
+                - generic [ref=e259]:
+                  - generic [ref=e260]:
+                    - text: Bot Name
+                    - textbox "Bot Name" [ref=e261]: dino
+                    - paragraph [ref=e262]: Name used by the assistant/chatbot in this workspace.
+                  - generic [ref=e263]:
+                    - text: Workspace Sector
+                    - combobox "Workspace Sector" [ref=e264] [cursor=pointer]:
+                      - generic: Banking
+                      - img [ref=e265]
+                    - paragraph [ref=e267]: Choose the sector to help tailor defaults and datasets.
+                - generic [ref=e270]:
+                  - button "Select logo" [ref=e271]:
+                    - img [ref=e274]
+                  - generic [ref=e279]:
+                    - button "Upload" [ref=e281] [cursor=pointer]:
+                      - img
+                      - text: Upload
+                    - generic [ref=e282]:
+                      - button "Remove" [disabled]:
+                        - img
+                        - text: Remove
+              - generic [ref=e283]:
+                - text: Workspace Description
+                - textbox "Workspace Description" [ref=e284]: Workspace for anusha@2ajvmidc.mailosaur.net
+                - paragraph [ref=e285]: Short description of the workspace purpose (optional).
+              - button "Save Changes" [ref=e287] [cursor=pointer]
+          - generic [ref=e288]:
+            - generic [ref=e290]:
+              - img [ref=e292]
+              - generic [ref=e295]:
+                - generic [ref=e296]: General Settings
+                - generic [ref=e297]: Configure workspace-wide settings
+            - generic [ref=e298]:
+              - generic [ref=e300]:
+                - generic [ref=e301]:
+                  - paragraph [ref=e302]: API Keys
+                  - paragraph [ref=e303]: Manage API access
+                - link "View Keys" [ref=e304] [cursor=pointer]:
+                  - /url: /admin/workspaces/dino-1776316958754/api-keys
+                  - button "View Keys" [ref=e305]
+              - generic [ref=e307]:
+                - generic [ref=e308]:
+                  - paragraph [ref=e309]: Delete Workspace
+                  - paragraph [ref=e310]: Once you delete a workspace, there is no going back. Please be certain.
+                - button "Delete" [ref=e311] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=e92]

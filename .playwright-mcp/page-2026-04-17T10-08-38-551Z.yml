@@ -1,0 +1,50 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Rumsan AI" [ref=e6] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=e7]:
+          - img [ref=e9]
+          - heading "Rumsan AI" [level=1] [ref=e12]
+      - button "Notifications" [ref=e14] [cursor=pointer]:
+        - img
+  - generic [ref=e16]:
+    - generic [ref=e20]:
+      - link "← Back to Dashboard" [ref=e21] [cursor=pointer]:
+        - /url: /admin
+      - heading "Organization Management" [level=1] [ref=e22]
+      - paragraph [ref=e23]: Manage your organization settings and configuration
+    - generic [ref=e26]:
+      - generic [ref=e28]:
+        - img [ref=e30]
+        - generic [ref=e34]:
+          - generic [ref=e35]: Organization Details
+          - generic [ref=e36]: Basic information about your organization
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - text: Organization Name
+              - generic [ref=e41]: Mailosaur
+              - paragraph [ref=e42]: Organization name cannot be changed
+            - generic [ref=e43]:
+              - text: Industry Sector
+              - combobox "Industry Sector" [ref=e44] [cursor=pointer]:
+                - generic: Banking
+                - img [ref=e45]
+              - paragraph [ref=e47]: Select the primary industry sector for your organization
+          - generic [ref=e49]:
+            - button "Select logo" [ref=e50]:
+              - img [ref=e53]
+            - generic [ref=e58]:
+              - button "Upload" [ref=e60] [cursor=pointer]:
+                - img
+                - text: Upload
+              - generic [ref=e61]:
+                - button "Remove" [disabled]:
+                  - img
+                  - text: Remove
+        - generic [ref=e62]:
+          - button "Save Changes" [disabled]
+  - region "Notifications alt+T"
+  - alert [ref=e63]

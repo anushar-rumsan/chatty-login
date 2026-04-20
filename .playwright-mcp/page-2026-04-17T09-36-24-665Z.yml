@@ -1,0 +1,111 @@
+- generic:
+  - generic:
+    - banner:
+      - generic:
+        - generic:
+          - link:
+            - /url: /dashboard
+            - generic:
+              - generic:
+                - img
+              - heading [level=1]: Rumsan AI
+        - generic:
+          - button:
+            - img
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - heading [level=1]: Admin Dashboard
+          - paragraph: Manage your RUMSAN AI platform
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - generic: Workspace Management
+                  - paragraph: 2 Active Workspaces
+          - generic:
+            - generic: Create and manage workspaces for different teams and projects
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - generic: Organization Management
+                  - paragraph: 1 Organization
+          - generic:
+            - generic: Manage your organization settings, branding, and general configuration
+        - generic:
+          - generic:
+            - generic: Coming Soon
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - generic: Billing & Subscription
+                  - paragraph: Pro Plan Active
+          - generic:
+            - generic: View your subscription plan, usage, and manage payment methods
+        - generic:
+          - generic:
+            - generic: Coming Soon
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - generic: AI Management
+                  - paragraph: 2 Models Active
+          - generic:
+            - generic: Configure AI models, training data, and chatbot behavior
+      - generic:
+        - heading [level=2]: Quick Actions
+        - generic:
+          - generic:
+            - generic:
+              - generic: Create Workspace
+            - generic:
+              - button: + New Workspace
+          - generic:
+            - generic:
+              - generic:
+                - generic: View Analytics
+                - generic: Coming Soon
+            - generic: View Reports
+  - region "Notifications alt+T"
+  - alert
+  - dialog "Create New Workspace" [ref=e94]:
+    - generic [ref=e95]:
+      - heading "Create New Workspace" [level=2] [ref=e96]
+      - paragraph [ref=e97]: Enter details for your new workspace. You can change these later.
+    - generic [ref=e98]:
+      - generic [ref=e99]:
+        - generic [ref=e100]: Workspace Name
+        - textbox "Workspace Name" [active] [ref=e101]:
+          - /placeholder: e.g., Marketing Team
+      - generic [ref=e102]:
+        - text: Sector
+        - combobox "Sector" [ref=e103] [cursor=pointer]:
+          - generic: Select Sector
+          - img [ref=e104]
+        - paragraph [ref=e106]: Select the primary industry sector for your workspace
+      - generic [ref=e107]:
+        - generic [ref=e108]: Description (Optional)
+        - textbox "Description (Optional)" [ref=e109]:
+          - /placeholder: Describe the purpose of this workspace...
+    - generic [ref=e110]:
+      - button "Cancel" [ref=e111] [cursor=pointer]
+      - button "Create Workspace" [disabled]
+    - button "Close" [ref=e112] [cursor=pointer]:
+      - img [ref=e113]
+      - generic [ref=e116]: Close

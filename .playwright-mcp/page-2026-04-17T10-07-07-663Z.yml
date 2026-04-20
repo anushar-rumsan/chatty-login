@@ -1,0 +1,112 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Rumsan AI" [ref=e6] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=e7]:
+          - img [ref=e9]
+          - heading "Rumsan AI" [level=1] [ref=e12]
+      - button "Notifications" [ref=e14] [cursor=pointer]:
+        - img
+  - generic [ref=e193]:
+    - generic [ref=e195]:
+      - generic [ref=e196]:
+        - link "Back to Workspaces" [ref=e197] [cursor=pointer]:
+          - /url: /admin/workspaces
+          - img [ref=e198]
+          - text: Back to Workspaces
+        - generic [ref=e200]:
+          - img [ref=e202]
+          - generic [ref=e207]:
+            - heading "dino" [level=1] [ref=e208]
+            - paragraph [ref=e209]: Workspace for anusha@2ajvmidc.mailosaur.net
+      - generic [ref=e210]: active
+    - generic [ref=e212]:
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - button "Scroll tabs left" [disabled]:
+            - img
+          - tablist [ref=e216]:
+            - tab "General" [ref=e217] [cursor=pointer]:
+              - img [ref=e218]
+              - text: General
+            - tab "Members" [ref=e221] [cursor=pointer]:
+              - img [ref=e222]
+              - text: Members
+            - tab "LLM Settings" [active] [selected] [ref=e227] [cursor=pointer]:
+              - img [ref=e228]
+              - text: LLM Settings
+            - tab "Industry Knowledge" [ref=e231] [cursor=pointer]:
+              - img [ref=e232]
+              - text: Industry Knowledge
+            - tab "Integrations" [ref=e235] [cursor=pointer]:
+              - img [ref=e236]
+              - text: Integrations
+            - tab "MCP Marketplace" [ref=e240] [cursor=pointer]:
+              - img [ref=e241]
+              - text: MCP Marketplace
+          - button "Scroll tabs right" [ref=e244] [cursor=pointer]:
+            - img
+        - link "Open Workspace" [ref=e245] [cursor=pointer]:
+          - /url: /dashboard/workspace/dino-1776316958754
+          - img
+          - text: Open Workspace
+      - tabpanel "LLM Settings" [ref=e335]:
+        - generic [ref=e336]:
+          - generic [ref=e337]:
+            - generic [ref=e338]: LLM Configuration
+            - generic [ref=e339]: Configure the AI model and settings for this workspace
+          - generic [ref=e341]:
+            - generic [ref=e342]:
+              - text: AI Provider
+              - combobox "AI Provider" [ref=e343] [cursor=pointer]:
+                - generic: OpenAI
+                - img [ref=e344]
+              - paragraph [ref=e346]: Select the AI provider for this workspace
+            - generic [ref=e347]:
+              - heading "Model Selection" [level=2] [ref=e348]
+              - generic [ref=e349]:
+                - generic [ref=e350]:
+                  - text: Chat Model
+                  - combobox "Chat Model" [ref=e351] [cursor=pointer]:
+                    - generic: GPT-4.1
+                    - img [ref=e352]
+                - generic [ref=e354]:
+                  - text: Embedding Model
+                  - combobox "Embedding Model" [ref=e355] [cursor=pointer]:
+                    - generic: nomic-embed-text:latest
+                    - img [ref=e356]
+            - generic [ref=e358]:
+              - heading "Advanced Settings" [level=2] [ref=e359]
+              - generic [ref=e360]:
+                - generic [ref=e361]:
+                  - text: Temperature
+                  - generic [ref=e362]:
+                    - generic [ref=e363]:
+                      - slider [ref=e368]
+                      - generic [ref=e369]:
+                        - generic: "0.7"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: "0.4"
+                          - generic:
+                            - generic: "0.7"
+                    - generic [ref=e370]:
+                      - generic [ref=e371]: Less Smart
+                      - generic [ref=e372]: More Smart
+                  - paragraph [ref=e373]: "Controls randomness: Lower values produce more focused and deterministic responses, while higher values generate more creative and varied outputs."
+                - generic [ref=e374]:
+                  - text: Max Tokens
+                  - spinbutton "Max Tokens" [ref=e375]: "4000"
+                  - paragraph [ref=e376]: Maximum length of generated response (2000-4000)
+            - generic [ref=e378]:
+              - generic [ref=e379]: OpenAI API Key*
+              - textbox "OpenAI API Key*" [ref=e380]
+              - paragraph [ref=e381]:
+                - text: Enter your API key to enable OpenAI services. For your security, the key is
+                - strong [ref=e382]: encrypted before being saved
+                - text: and will appear in its protected, encrypted format once stored.
+            - button "Save Configuration" [ref=e384] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=e92]

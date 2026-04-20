@@ -1,0 +1,59 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Rumsan AI" [ref=e6] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=e7]:
+          - img [ref=e9]
+          - heading "Rumsan AI" [level=1] [ref=e12]
+      - button "Notifications" [ref=e14] [cursor=pointer]:
+        - img
+  - generic [ref=e175]:
+    - generic [ref=e178]:
+      - heading "Admin Dashboard" [level=1] [ref=e179]
+      - paragraph [ref=e180]: Manage your RUMSAN AI platform
+    - generic [ref=e181]:
+      - generic [ref=e182]:
+        - generic [ref=e183] [cursor=pointer]:
+          - generic [ref=e186]:
+            - img [ref=e188]
+            - generic [ref=e190]:
+              - generic [ref=e191]: Workspace Management
+              - paragraph [ref=e192]: 2 Active Workspaces
+          - generic [ref=e194]: Create and manage workspaces for different teams and projects
+        - generic [ref=e195] [cursor=pointer]:
+          - generic [ref=e198]:
+            - img [ref=e200]
+            - generic [ref=e204]:
+              - generic [ref=e205]: Organization Management
+              - paragraph [ref=e206]: 1 Organization
+          - generic [ref=e208]: Manage your organization settings, branding, and general configuration
+        - generic [ref=e209]:
+          - generic [ref=e211]: Coming Soon
+          - generic [ref=e214]:
+            - img [ref=e216]
+            - generic [ref=e218]:
+              - generic [ref=e219]: Billing & Subscription
+              - paragraph [ref=e220]: Pro Plan Active
+          - generic [ref=e222]: View your subscription plan, usage, and manage payment methods
+        - generic [ref=e223]:
+          - generic [ref=e225]: Coming Soon
+          - generic [ref=e228]:
+            - img [ref=e230]
+            - generic [ref=e233]:
+              - generic [ref=e234]: AI Management
+              - paragraph [ref=e235]: 2 Models Active
+          - generic [ref=e237]: Configure AI models, training data, and chatbot behavior
+      - generic [ref=e238]:
+        - heading "Quick Actions" [level=2] [ref=e239]
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - generic [ref=e243]: Create Workspace
+            - button "+ New Workspace" [ref=e245] [cursor=pointer]
+          - generic [ref=e246]:
+            - generic [ref=e248]:
+              - generic [ref=e249]: View Analytics
+              - generic [ref=e250]: Coming Soon
+            - generic [ref=e251]: View Reports
+  - region "Notifications alt+T"
+  - alert [ref=e92]

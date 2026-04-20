@@ -1,0 +1,118 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Rumsan AI" [ref=e6] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=e7]:
+          - img [ref=e9]
+          - heading "Rumsan AI" [level=1] [ref=e12]
+      - button "Notifications" [ref=e14] [cursor=pointer]:
+        - img
+  - generic [ref=e193]:
+    - generic [ref=e195]:
+      - generic [ref=e196]:
+        - link "Back to Workspaces" [ref=e197] [cursor=pointer]:
+          - /url: /admin/workspaces
+          - img [ref=e198]
+          - text: Back to Workspaces
+        - generic [ref=e200]:
+          - img [ref=e202]
+          - generic [ref=e207]:
+            - heading "dino" [level=1] [ref=e208]
+            - paragraph [ref=e209]: Workspace for anusha@2ajvmidc.mailosaur.net
+      - generic [ref=e210]: active
+    - generic [ref=e212]:
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - button "Scroll tabs left" [ref=e409] [cursor=pointer]:
+            - img
+          - tablist [ref=e216]:
+            - tab "General" [ref=e217] [cursor=pointer]:
+              - img [ref=e218]
+              - text: General
+            - tab "Members" [ref=e221] [cursor=pointer]:
+              - img [ref=e222]
+              - text: Members
+            - tab "LLM Settings" [ref=e227] [cursor=pointer]:
+              - img [ref=e228]
+              - text: LLM Settings
+            - tab "Industry Knowledge" [ref=e231] [cursor=pointer]:
+              - img [ref=e232]
+              - text: Industry Knowledge
+            - tab "Integrations" [active] [selected] [ref=e235] [cursor=pointer]:
+              - img [ref=e236]
+              - text: Integrations
+            - tab "MCP Marketplace" [ref=e240] [cursor=pointer]:
+              - img [ref=e241]
+              - text: MCP Marketplace
+          - button "Scroll tabs right" [ref=e244] [cursor=pointer]:
+            - img
+        - link "Open Workspace" [ref=e245] [cursor=pointer]:
+          - /url: /dashboard/workspace/dino-1776316958754
+          - img
+          - text: Open Workspace
+      - tabpanel "Integrations" [ref=e410]:
+        - generic [ref=e413]:
+          - generic [ref=e414]:
+            - generic [ref=e415]:
+              - generic [ref=e416]:
+                - img [ref=e418]
+                - heading "Widgets" [level=2] [ref=e420]
+              - paragraph [ref=e421]: Enhance your website with intelligent, interactive widgets
+            - generic [ref=e424]:
+              - generic [ref=e425]:
+                - img "Chat Widget Logo" [ref=e427]
+                - generic [ref=e428]:
+                  - heading "Chat Widget" [level=3] [ref=e429]
+                  - paragraph [ref=e430]: "Type: AI Assistant"
+              - paragraph [ref=e431]: Bring intelligent, real-time assistance to your website with the chat widget.
+              - button "Integrate" [ref=e433] [cursor=pointer]:
+                - img
+                - text: Integrate
+          - generic [ref=e434]:
+            - generic [ref=e435]:
+              - generic [ref=e436]:
+                - img [ref=e438]
+                - heading "Services" [level=2] [ref=e442]
+              - paragraph [ref=e443]: Connect with popular communication and messaging platforms
+            - generic [ref=e444]:
+              - generic [ref=e446]:
+                - generic [ref=e447]:
+                  - img "Slack Logo" [ref=e449]
+                  - generic [ref=e450]:
+                    - heading "Slack" [level=3] [ref=e451]
+                    - paragraph [ref=e452]: "Type: Communication"
+                - paragraph [ref=e453]: Keep your team connected with real-time messaging, notifications, and seamless collaboration across all your tools.
+                - button "Integrate" [ref=e455] [cursor=pointer]:
+                  - img
+                  - text: Integrate
+              - generic [ref=e457]:
+                - generic [ref=e458]:
+                  - img "WhatsApp Logo" [ref=e460]
+                  - generic [ref=e461]:
+                    - heading "WhatsApp" [level=3] [ref=e462]
+                    - paragraph [ref=e463]: "Type: Messaging"
+                - paragraph [ref=e464]: Connect your WhatsApp account to enable real-time conversations with customers directly through Rumsan AI.
+                - generic [ref=e465]:
+                  - button "Integrate" [disabled]:
+                    - img
+                    - text: Integrate
+                  - generic [ref=e466]:
+                    - img
+                    - text: Coming Soon
+              - generic [ref=e468]:
+                - generic [ref=e469]:
+                  - img "Messenger Logo" [ref=e471]
+                  - generic [ref=e472]:
+                    - heading "Messenger" [level=3] [ref=e473]
+                    - paragraph [ref=e474]: "Type: Messaging"
+                - paragraph [ref=e475]: Integrate your Facebook Messenger to engage users and respond automatically.
+                - generic [ref=e476]:
+                  - button "Integrate" [disabled]:
+                    - img
+                    - text: Integrate
+                  - generic [ref=e477]:
+                    - img
+                    - text: Coming Soon
+  - region "Notifications alt+T"
+  - alert [ref=e92]

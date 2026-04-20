@@ -1,0 +1,59 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Rumsan AI" [ref=e6] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [ref=e7]:
+          - img [ref=e9]
+          - heading "Rumsan AI" [level=1] [ref=e12]
+      - button "Notifications" [ref=e14] [cursor=pointer]:
+        - img
+  - generic [ref=e15]:
+    - generic [ref=e18]:
+      - heading "Admin Dashboard" [level=1] [ref=e19]
+      - paragraph [ref=e20]: Manage your RUMSAN AI platform
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23] [cursor=pointer]:
+          - generic [ref=e26]:
+            - img [ref=e28]
+            - generic [ref=e30]:
+              - generic [ref=e31]: Workspace Management
+              - paragraph [ref=e32]: 2 Active Workspaces
+          - generic [ref=e34]: Create and manage workspaces for different teams and projects
+        - generic [ref=e35] [cursor=pointer]:
+          - generic [ref=e38]:
+            - img [ref=e40]
+            - generic [ref=e44]:
+              - generic [ref=e45]: Organization Management
+              - paragraph [ref=e46]: 1 Organization
+          - generic [ref=e48]: Manage your organization settings, branding, and general configuration
+        - generic [ref=e49]:
+          - generic [ref=e51]: Coming Soon
+          - generic [ref=e54]:
+            - img [ref=e56]
+            - generic [ref=e58]:
+              - generic [ref=e59]: Billing & Subscription
+              - paragraph [ref=e60]: Pro Plan Active
+          - generic [ref=e62]: View your subscription plan, usage, and manage payment methods
+        - generic [ref=e63]:
+          - generic [ref=e65]: Coming Soon
+          - generic [ref=e68]:
+            - img [ref=e70]
+            - generic [ref=e73]:
+              - generic [ref=e74]: AI Management
+              - paragraph [ref=e75]: 2 Models Active
+          - generic [ref=e77]: Configure AI models, training data, and chatbot behavior
+      - generic [ref=e78]:
+        - heading "Quick Actions" [level=2] [ref=e79]
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - generic [ref=e83]: Create Workspace
+            - button "+ New Workspace" [ref=e85] [cursor=pointer]
+          - generic [ref=e86]:
+            - generic [ref=e88]:
+              - generic [ref=e89]: View Analytics
+              - generic [ref=e90]: Coming Soon
+            - generic [ref=e91]: View Reports
+  - region "Notifications alt+T"
+  - alert [ref=e92]

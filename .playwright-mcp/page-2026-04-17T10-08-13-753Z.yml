@@ -1,0 +1,106 @@
+- generic:
+  - generic:
+    - banner:
+      - generic:
+        - generic:
+          - link:
+            - /url: /dashboard
+            - generic:
+              - generic:
+                - img
+              - heading [level=1]: Rumsan AI
+        - generic:
+          - button:
+            - img
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - link:
+            - /url: /admin/workspaces
+            - img
+            - text: Back to Workspaces
+          - generic:
+            - generic:
+              - img
+            - generic:
+              - heading [level=1]: dino
+              - paragraph: Workspace for anusha@2ajvmidc.mailosaur.net
+        - generic: active
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - button:
+              - img
+            - generic:
+              - tablist:
+                - tab:
+                  - img
+                  - text: General
+                - tab [selected]:
+                  - img
+                  - text: Members
+                - tab:
+                  - img
+                  - text: LLM Settings
+                - tab:
+                  - img
+                  - text: Industry Knowledge
+                - tab:
+                  - img
+                  - text: Integrations
+                - tab:
+                  - img
+                  - text: MCP Marketplace
+            - button:
+              - img
+          - link:
+            - /url: /dashboard/workspace/dino-1776316958754
+            - img
+            - text: Open Workspace
+        - tabpanel:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Workspace Members
+                    - generic: Manage who has access to this workspace
+                  - button [expanded]:
+                    - img
+                    - text: Invite Member
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                      - generic:
+                        - paragraph: anusha
+                        - paragraph: anusha@2ajvmidc.mailosaur.net
+                    - generic:
+                      - generic: WORKSPACE ADMIN
+  - region "Notifications alt+T"
+  - alert
+  - dialog "Invite New Member" [ref=e515]:
+    - generic [ref=e516]:
+      - heading "Invite New Member" [level=2] [ref=e517]
+      - paragraph [ref=e518]: Send an invitation to join this workspace
+    - generic [ref=e519]:
+      - generic [ref=e520]:
+        - generic [ref=e521]:
+          - text: Email Address
+          - textbox "Email Address" [active] [ref=e522]:
+            - /placeholder: member@example.com
+        - generic [ref=e523]:
+          - text: Role
+          - combobox "Role" [ref=e524] [cursor=pointer]:
+            - generic: Member
+            - img [ref=e525]
+      - button "Send Invitation" [disabled]:
+        - img
+        - text: Send Invitation
+    - button "Close" [ref=e527] [cursor=pointer]:
+      - img [ref=e528]
+      - generic [ref=e531]: Close

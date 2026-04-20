@@ -1,0 +1,27 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e22]:
+    - button "Back" [ref=e24] [cursor=pointer]:
+      - img
+      - text: Back
+    - generic [ref=e25]:
+      - img [ref=e28]
+      - heading "Rumsan AI" [level=1] [ref=e31]
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]: One Time Password
+        - generic [ref=e35]: Please enter the OTP sent to your email.
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - textbox [ref=e39]
+            - textbox [ref=e40]
+            - textbox [ref=e41]
+            - textbox [ref=e42]
+            - textbox [ref=e43]
+            - textbox [ref=e44]
+          - button "Verify OTP" [ref=e45] [cursor=pointer]
+        - generic [ref=e46]:
+          - text: Didn't receive the code?
+          - button "Try again" [ref=e47] [cursor=pointer]
+  - region "Notifications alt+T"
+  - alert [ref=e20]
